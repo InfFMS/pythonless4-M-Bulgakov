@@ -10,6 +10,9 @@
 # ********
 # *********
 # **********
+
+def trg(n):
+    for i in range(n):
+        print('*'*(i+1))
 n = int(input())
-for i in range(n):
-    print('*'*(i+1))
+trg(n)

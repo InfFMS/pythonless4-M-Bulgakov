@@ -9,10 +9,17 @@
 # Вывод:
 # 5 3
 
-import math
+def nod(a, b):
+    while a != b:
+        if a > b:
+            a -= b
+        else:
+            b -= a
+    return a
+
 m = int(input())
 n = int(input())
-c = math.gcd(m, n)
+c = nod(m,n)
 m1 = m//c
 n1 = n//c
 print(m1, n1)

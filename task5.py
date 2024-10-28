@@ -5,5 +5,16 @@
 # Идея задачи реализовать алгоритм,
 # который будет работать для любого введенного натурального числа.
 
-rs =''.join(reversed(input()))
+'''rs =''.join(reversed(input()))
+print(rs)'''
+
+
+
+n = input()
+rs = ''
+s=[]
+k = int(0)
+for i in range(len(n)):
+    k = int(len(n) - i-1)
+    rs += n[k]
 print(rs)

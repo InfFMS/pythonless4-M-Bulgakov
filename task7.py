@@ -9,4 +9,4 @@ def t(a, b, c):
     else:
         return False
 
-print(t(int(input()),int(input()),int(input())))
+print(t(int(input()),int(input()),int(input()))

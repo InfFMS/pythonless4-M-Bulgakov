@@ -4,3 +4,18 @@
 # Операцией возведения в степень пользоваться нельзя!
 # Задача на рекурсию!
 
+N = int(input())
+k=1
+if N ==0:
+    k=0
+    print('NO')
+while k ==1:
+    if N % 2 == 0:
+        n = N //2
+        N=n
+    else:
+        k=0
+if N == 1:
+    print('YES')
+else:
+    print('NO')
